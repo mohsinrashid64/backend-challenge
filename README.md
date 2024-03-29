@@ -32,9 +32,9 @@ Before setting up the project, ensure you have the following prerequisites insta
 	.\.venv\Scripts\activate
 	```
 	> **Note:** if you are using a mac, enter the following command:
-		```sh
-		source .venv/bin/activate
-		```
+	```sh
+	source .venv/bin/activate
+	```
 4. Navigate to the `frontend` directory and install `Node.js` dependencies:
 	```sh
 	pip install -r requirements.txt
