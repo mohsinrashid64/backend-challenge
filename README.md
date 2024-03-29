@@ -16,7 +16,11 @@ Before setting up the project, ensure you have the following prerequisites insta
 
 ## Setup
 
-1. Clone the repository
+1. Clone the repository:
+
+   ```sh
+   git clone [https://github.com/your-username/project-name.git](https://github.com/mohsinrashid64/AAK-Tele-Science-Test.git)
+	```
 	
 2. Create a Python virtual environment:
 	```sh
@@ -28,15 +32,15 @@ Before setting up the project, ensure you have the following prerequisites insta
 	.\.venv\Scripts\activate
 	```
 	> **Note:** if you are using a mac, enter the following command:
-	```sh
-	source .venv/bin/activate
-	```
-4. Navigate to the `frontend` directory and install `Node.js` dependencies:
+		```sh
+		source .venv/bin/activate
+		```
+4. Install Python dependencies:
 	```sh
 	pip install -r requirements.txt
 	```
 
-5. Navigate to the `frontend` directory and install node modules:
+5. Navigate to the `frontend` directory and install `Node.js` dependencies:
 	```sh
 	npm install
 	```
