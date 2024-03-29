@@ -35,12 +35,12 @@ Before setting up the project, ensure you have the following prerequisites insta
 		```sh
 		source .venv/bin/activate
 		```
-4. Navigate to the `frontend` directory and install `Node.js` dependencies:
+4. Install Python dependencies:
 	```sh
 	pip install -r requirements.txt
 	```
 
-5. Navigate to the `frontend` directory and install node modules:
+5. Navigate to the `frontend` directory and install `Node.js` dependencies:
 	```sh
 	npm install
 	```
