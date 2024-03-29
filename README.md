@@ -16,11 +16,7 @@ Before setting up the project, ensure you have the following prerequisites insta
 
 ## Setup
 
-1. Clone the repository:
-
-   ```sh
-   git clone https://github.com/mohsinrashid64/AAK-Tele-Science-Test.git
-   ```
+1. Clone the repository
 	
 2. Create a Python virtual environment:
 	```sh
