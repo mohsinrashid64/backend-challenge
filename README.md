@@ -36,12 +36,7 @@ Before setting up the project, ensure you have the following prerequisites insta
 	pip install -r requirements.txt
 	```
 
-5. Navigate to the `frontend` directory and install `Node.js` dependencies:
-	```sh
-	npm install
-	```
-
-6. Finally, navigate to the `api` directory and start the Django development server:
+5. Finally, navigate to the `api` directory and start the Django development server:
 	```sh
 	python manage.py runserver
 	```
