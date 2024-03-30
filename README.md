@@ -17,31 +17,27 @@ Before setting up the project, ensure you have the following prerequisites insta
 ## Setup
 
 1. Clone the repository
-	
-2. Create a Python virtual environment:
+2. Navigate to the `project` directory:
+	```sh
+	cd project
+	```
+3. Create a Python virtual environment:
 	```sh
 	python3 -m venv .venv
 	```
-
-3. Activate the virtual environment:
+4. Activate the virtual environment:
 	```sh
 	.\.venv\Scripts\activate
 	```
-	> **Note:** if you are using a mac, enter the following command:
+	> **Note:** if you are using a mac, use the following command:
 		```sh
 		source .venv/bin/activate
 		```
-4. Install Python dependencies:
+5. Install Python dependencies:
 	```sh
 	pip install -r requirements.txt
 	```
-
-5. Navigate to the `frontend` directory and install `Node.js` dependencies:
-	```sh
-	npm install
-	```
-
-6. Finally, navigate to the `api` directory and start the Django development server:
+6. Finally start the Django development server:
 	```sh
 	python manage.py runserver
 	```
