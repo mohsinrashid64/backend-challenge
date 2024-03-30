@@ -62,17 +62,3 @@ const populationChartConfig = {
 };
   
 export default populationChartConfig;
-
-
-
-
-
-
-  ////////
-
-
-
-
-
-  
-  

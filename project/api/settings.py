@@ -46,7 +46,7 @@ ROOT_URLCONF = "api.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [os.path.join(BASE_DIR, '../frontend/build')],
+        "DIRS": [os.path.join(BASE_DIR, './frontend/build')],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -116,6 +116,6 @@ USE_TZ = True
 
 STATIC_URL = "static/"
 
-STATICFILES_DIRS = [os.path.join(BASE_DIR, '../frontend/build/static')]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, './frontend/build/static')]
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
