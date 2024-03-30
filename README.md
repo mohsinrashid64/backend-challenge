@@ -30,9 +30,9 @@ Before setting up the project, ensure you have the following prerequisites insta
 	.\.venv\Scripts\activate
 	```
 	> **Note:** if you are using a mac, use the following command:
-		```sh
-		source .venv/bin/activate
-		```
+	```sh
+	source .venv/bin/activate
+	```
 5. Install Python dependencies:
 	```sh
 	pip install -r requirements.txt
