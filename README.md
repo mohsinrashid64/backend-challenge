@@ -29,7 +29,7 @@ Before setting up the project, ensure you have the following prerequisites insta
 	```sh
 	.\.venv\Scripts\activate
 	```
-	> **Note:** if you are using a mac, use the following command:
+	> **Note:** if you are on a mac, use the following command:
 	```sh
 	source .venv/bin/activate
 	```
